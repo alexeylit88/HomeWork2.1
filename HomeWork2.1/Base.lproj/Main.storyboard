@@ -19,11 +19,37 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uky-Yg-IVX">
                                 <rect key="frame" x="16" y="59" width="361" height="356.33333333333331"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5xH-FB-R3P">
+                                        <rect key="frame" x="0.0" y="130.33333333333334" width="361" height="96"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <constraints>
+                                    <constraint firstItem="5xH-FB-R3P" firstAttribute="centerY" secondItem="Uky-Yg-IVX" secondAttribute="centerY" id="7JN-C4-xpI"/>
+                                    <constraint firstAttribute="trailing" secondItem="5xH-FB-R3P" secondAttribute="trailing" id="Cst-fJ-TvZ"/>
+                                    <constraint firstItem="5xH-FB-R3P" firstAttribute="leading" secondItem="Uky-Yg-IVX" secondAttribute="leading" id="sOa-e3-X8W"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JV-Lb-mLD">
                                 <rect key="frame" x="16" y="431.33333333333326" width="361" height="386.66666666666674"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color Two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0pC-wp-o66">
+                                        <rect key="frame" x="0.0" y="145.33333333333331" width="361" height="96"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstItem="0pC-wp-o66" firstAttribute="leading" secondItem="1JV-Lb-mLD" secondAttribute="leading" id="3g2-Ps-xvc"/>
+                                    <constraint firstAttribute="trailing" secondItem="0pC-wp-o66" secondAttribute="trailing" id="OfQ-6G-WX8"/>
+                                    <constraint firstItem="0pC-wp-o66" firstAttribute="centerY" secondItem="1JV-Lb-mLD" secondAttribute="centerY" id="fWC-WA-yY5"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
